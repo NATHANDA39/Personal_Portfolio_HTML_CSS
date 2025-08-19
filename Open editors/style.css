@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body { 
+    background: #FCF2DD;
+}
+
+nav{
+    padding: 15px 9%;
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    background: #5F1311;
+    z-index: 100;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: #FCF2DD;
+    text-decoration: none;  
+}
+nav ul li{ 
+    display: inline-block;
+    list-style: none;
+    margin: 10px 17px; 
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    transition: .5s;
+}
+.navbar ul li:hover a,
+.navbar ul li.active a {
+    color:#e6a33a;
+    transition: .4s;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 60px 9% 0;
+    color:#5F1311
+}
+
+.home-info h1{
+    font-size: 55px;
+}
+
+.home-info h2{
+    font-size: 32px;
+    margin-top: 02px; 
+}
+.home-info p{
+    font-size: 16px;
+    margin-top: 12px;   
+    margin-bottom: 15px;
+    animation-delay: 0.5s;   
+}
+.home-info .btn-sci{
+    display: flex;
+    align-items: center;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background:#5F1311;
+    border: 2px solid #5F1311;
+    border-radius: 40px;
+    box-shadow: 0, 0, 10px #5F1311;
+    font-size: 16px;
+    color: #e6a33a;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .5s;
+     animation-delay: 1s;
+}
+
+.btn:hover {
+    background: transparent;
+    color: #5F1311;
+    box-shadow: none;
+}
+
+.home-info .btn-sci .sci{
+   margin-left: 20px; 
+}
+
+.home-info .btn-sci .sci a {
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid #5F1311;
+    border-radius: 50%;
+    font-size: 20px;
+    color : #5F1311;
+    margin: 0 8px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.home-info .btn-sci .sci a:hover {
+    background: #5F1311;
+    color: #e6a33a;
+}
+
+
+.most {
+    display: flex;
+    margin-right: 55px;  
+}
+.anim{ 
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+    100% {
+        opacity: 1;
+        transform: translate( 0px);
+    }
+}
+.About{
+    text-align: center;
+}
