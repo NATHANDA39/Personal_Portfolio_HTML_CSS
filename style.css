@@ -7,10 +7,11 @@
 }
 body { 
     background: #FCF2DD;
+    overflow-x: hidden;
 }
 
 nav{
-    padding: 15px 9%;
+    padding: 9px 5%;
     display: flex;
     align-items: right;
     justify-content: space-between;
@@ -18,7 +19,7 @@ nav{
     z-index: 100;
 }
 .logo{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     color: #FCF2DD;
     text-decoration: none;  
@@ -31,7 +32,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #fff;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     transition: .5s;
 }
@@ -39,6 +40,23 @@ nav ul li a{
 .navbar ul li.active a {
     color:#e6a33a;
     transition: .4s;
+}
+
+.profile_pic_anim{
+    position: relative;
+    width: 25vw;
+    animation: floatImage 4s ease-in-out infinite;
+}
+
+.profile_pic_anim img {
+    position: absolute;
+    left: -141px;
+    z-index: -22; 
+    max-width: 200%;
+    height: 120%; 
+    flex: 0 0 auto;
+    bottom: -75px;
+    right: 40px
 }
 
 .home {
@@ -51,6 +69,7 @@ nav ul li a{
 
 .home-info h1{
     font-size: 55px;
+    margin-top: 5rem;
 }
 
 .home-info h2{
@@ -109,7 +128,6 @@ nav ul li a{
     color: #e6a33a;
 }
 
-
 .most {
     display: flex;
     margin-right: 55px;  
@@ -125,6 +143,95 @@ nav ul li a{
         transform: translate( 0px);
     }
 }
-.About{
+.about{
+    text-align: left;
+    padding-top: 80px;
+    padding-bottom: 80px;;
+    background: #5F1311;
+    color: #FCF2DD;
+    z-index: 99;
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 550px;
+    margin-top: -5%;
+}
+.main{
+    width:1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+}
+.about-text h2{
+    color: #e6a33a;
+    font-size: 75px; 
+    text-transform: capitalize;
+    margin-bottom: 15px;
+} 
+.about-text h5{
+    color: #FCF2DD;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: #FCF2DD;
+    letter-spacing: .5px;
+    line-height: 25px;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+button{
+    background-color: #FCF2DD;
+    color:#5F1311;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 4s;
+
+}
+button:hover{
+    background-color: transparent;
+    color: #e6a33a;
+    border: 2px solid #FCF2DD;
+    cursor: pointer;
+}
+
+.skills{
+    background:#FCF2DD;
+    width: 100%;
+    padding: 10px 0px;
+}
+.title h2{
+    color:#5F1311;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
     text-align: center;
 }
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #e6a33a;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align:center;
+}
+
