@@ -1,114 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perosonal Portfolio - Nathan Lartey </title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="Stylesheet" href="style.css">
-</head>
-<body> 
 
-        <nav  class="navbar",>
-           <a href="#" class="logo">Portfolio.</a>
-            <ul>
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <article class="most">
-        <section   class="home">
+     <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="./Images/NL logo.png">
+</head>
+
+<body>
+
+    <nav class="navbar" ,>
+        <a id="home" class="logo">NATLAR.</a>
+        <!-- <a id="home" class="logo"><img src="/Images/NL logo.png" alt="Portfolio logo"></a> -->
+        <ul>
+            <!-- <li class="active"><a href="#">Home</a></li> -->
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <article class="most">
+        <section class="home">
             <div class="home-info">
-                <h1 class="anim">Nathan Lartey</h1>
-                <h2 class="anim">I'm a Data Analyst
+                <h1 class="anim">Hi,I'm Nathan Lartey</h1>
+                <h2 class="anim">a Frontend Developer
                     <!-- <span>Frontend Developer</span>
                     <span>UI/UX Designer</span>
                     <span>Data Analyst</span> -->
-                </h2> 
-                <p class="anim"> Focused on analyzing and visualizing data through
+                </h2>
+                <p class="anim"> I transform ideas into reality through code, specializing in creating visually 
+                    <br> and functional websites. My expertise in modern web technologies 
+                    <br> allows me to write efficient code that brings concepts to life.
+                </p>
+                <!-- <p class="anim"> Focused on analyzing and visualizing data through
                 <br> customized dashboards. I transform complex datasets
                 <br> into clear insights, helping organizations uncover trends 
-                and make informed decisions.</p>
-                 
+                and make informed decisions.</p> -->
+
                 <div class="btn-sci">
-                    <a href="#" class="btn anim">Download CV</a>
+                    <a href="https://docs.google.com/document/d/1Arvp1KRMY3_AK23inKwdKh1diplRNOWa/edit?usp=sharing&ouid=117980549990152463417&rtpof=true&sd=true"target="_blank" class="btn anim">Download CV</a>
                     <div class="sci">
-                        <a href="#" class ="anim"><i class='bx bxl-linkedin'></i></a>
-                        <a href="#" class ="anim"><i class='bx bxl-twitter'></i></a>
-                        <a href="#" class ="anim"><i class='bx bxl-instagram' ></i></a>
-                        <a href="#" class ="anim"><i class='bx bxl-facebook' ></i></a>
+                        <a href="https://www.linkedin.com/in/nathan-lartey/" target="_blank" class="anim"><i
+                                class='bx bxl-linkedin'></i></a>
+                        <a href="https://x.com/nathanlartey" target="_blank" class="anim"><i class='bx bxl-twitter'></i></a>
+                        <a href="https://www.instagram.com/nathanlartey/" target="_blank" class="anim"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://web.facebook.com/nathan.lartey/" target="_blank" class="anim"><i class='bx bxl-facebook'></i></a>
         </section>
         <section class="profile_pic_anim">
-            <img src="./Images/Nathan Lartey.png" class ="anim" alt="Profile-image" width="500" height="auto"/>
+            <img src="./Images/Nathan Lartey.png" class="anim" alt="Profile-image" width="500" height="auto" />
         </section>
-        </article>
-      
-       <!-- About section start -->
-        <section class ="about">
-           <div class="main">
-                <img src ="./Images/NL.jpg">
-                <div class="about-text">
-                    <h2>About Me</h2>
-                    <h5>Frontend Developer <span>& Graphic Designer</span></h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, qui commodi. 
-                        Voluptatem ipsum inventore facere, provident blanditiis aspernatur accusantium, 
-                        mollitia sit unde deleniti soluta eum qui dolorum quam, numquam id.</p>
-                    <button type = "button">Let's Talk</button>
-                </div> 
-           </div>
-        </section>
+    </article>
 
-        <!-- Skills section start -->
-         <div class="skills">
+    <!-- About section start -->
+    <section class="about">
+        <div class="main">
+            <img src="./Images/NL.jpg">
+            <div class="about-text">
+                <h2 id="about">About Me</h2>
+                <h5>Frontend Developer <span>& Graphic Designer</span></h5>
+                <p>I believe in the synergy between design and development.A successful collaboration occurs
+                <br> when designers understand HTML and CSS, while developers appreciate design principles 
+                <br>such as color, typography, and visual culture. This mutual understanding enhances professional 
+                <br>growth and project outcomes. Tools like Adobe Photoshop and Illustrator, and Canva and Figma 
+                <br>facilitate this collaboration, allowing both designers and developers to engage with each others
+                <br>processes effectively.I am committed to fostering this coexistence to drive innovation and
+                <br>creativity in my work.</p>
+                <a href="https://wa.link/6stxgl"target="_blank"><button type="button">Let's Talk</button></a> 
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills section start -->
+    <section class="skills">
+        <div class="skills">
             <div class="title">
-                <h2>Skills</h2>
-         </div>
+                <h2 id="skills">Skills</h2>
+            </div>
 
-        <div class="box">
-    <div class="card">
-        <i class="fas fa-bars"></i>
-        <h5>Web Development</h5>
-        <div class="pra">
-            <p>Every website should be built with two primary goals: First, it needs to work across all devices. Secondly, it needs to be as fast as possible.</p>
-            <p style="text-align: center;">
-                <a class="button" href="#">Read More</a>
-            </p>
-        </div>
-    </div>
+            <div class="box">
+                <div class="card">
+                    <i class='bx bx-code-alt'></i></i>
+                    <h5>Frontend Development</h5>
+                    <div class="pra">
+                        <p>Key tools:
+                        <br> HTML and CSS 
+                        </p>
+                        <p style="text-align: center;">
+                            <!-- <a class="button" href="#">Read More</a> -->
+                        </p>
+                    </div>
+                </div>
 
-    <div class="card">
-        <i class="fas fa-bars"></i>
-        <h5>Web Development</h5>
-        <div class="pra">
-            <p>Every website should be built with two primary goals: First, it needs to work across all devices. Secondly, it needs to be as fast as possible.</p>
-            <p style="text-align: center;">
-                <a class="button" href="#">Read More</a>
-            </p>
-        </div>
-    </div>
+                <div class="card">
+                    <i class='bx bx-palette'></i></i>
+                    <h5>Graphic Design</h5>
+                    <div class="pra">
+                        <p>Key tools:
+                        <br> Adobe Illustrator and Photoshop
+                        </p>
+                        <p style="text-align: center;">
+                            <!-- <a class="button" href="#">Read More</a> -->
+                        </p>
+                    </div>
+                </div>
 
-    <div class="card">
-        <i class="fas fa-bars"></i>
-        <h5>Web Development</h5>
-        <div class="pra">
-            <p>Every website should be built with two primary goals: First, it needs to work across all devices. Secondly, it needs to be as fast as possible.</p>
-            <p style="text-align: center;">
-                <a class="button" href="#">Read More</a>
-            </p>
-        </div>
-    </div>
-</div>
+                <div class="card">
+                    <i class='bx bx-sticker'></i></i>
+                    <h5>UI/UX Design</h5>
+                    <div class="pra">
+                        <p>Key tools: 
+                        <br> Figma and Canva
+                        </p>
+                        <p style="text-align: center;">
+                            <!-- <a class="button" href="#">Read More</a> -->
+                        </p>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Projects -->
+            <section class="projects" id="projects">
 
+                <h2 class="heading">Featured Projects</h2>
 
+                <div class="projects-box">
+                    <div class="p_title">
+                    </div>
 
+                    <div class="project-card">
+                        <img src="./Images/2025-08-22 10_06_00-Greenshot.png" alt="Project 1 Image">
+                        <h3>UI Project </h3>
+                        <p>Designed and implemented an inviting wireframe for the website's user interface.</p>
+                        <a href="https://www.gitc.gov.gh/"target="_blank"><div class="btn">Review Project</div></a>
+                    </div>
 
+                    <div class="project-card">
+                        <img src="./Images/Dashboard-Spotify.png" alt="Project 2 Image">
+                        <h3>Spotify Dashboard</h3>
+                        <p>Developed a dashboard to provide analytical insights for Spotify.</p>
+                        <a href="https://drive.google.com/file/d/1UmQjyz97whbnKNxPAKa9foYSkfByzzkW/view"target="_blank"><div class="btn">Review Project</div></a>
+                    </div>
 
+                    <div class="project-card">
+                        <img src="./Images/BRAND BOOK.png" alt="Project 3 Image">
+                        <h3>Brand Book</h3>
+                        <p>Created a brand guideline book for a small retail cosmetics store.</p>
+                        <a href="https://drive.google.com/file/d/1vtN0hGwiBj7f_yqI4bMArEMUrDKJe3rH/view" target="_blank"><div class="btn">Review Project</div></a>
+                    </div>
 
-
+                </div>
+            </section>
             
+
+            <!-- Contact Me  -->
+        <section class="contact-me" id="contact">
+            <div class="contact-me">
+                <p>Let's Talk</p>
+                <a class="button-two" href="https://wa.link/6stxgl"target="_blank"> Connect with me</a>
+            </div>
+        </section>
+
+
+            <!-- Footer start -->
+            <footer>
+                <div class="footer-paragraphs">
+                    <p>All rights reserved || Copyright by Nathan Lartey </p>
+                </div>
+                
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/nathan-lartey/" target="_blank" class="anim"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://x.com/nathanlartey" target="_blank" class="anim"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://www.instagram.com/nathanlartey/" target="_blank"class="anim"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://web.facebook.com/nathan.lartey/" target="_blank"class="anim"><i class='bx bxl-facebook'></i></a>
+                </div>
+
+            </footer>
 </body>
+
 </html>
